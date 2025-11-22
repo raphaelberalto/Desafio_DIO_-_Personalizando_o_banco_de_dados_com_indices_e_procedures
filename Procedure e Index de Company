@@ -156,12 +156,16 @@ VALUES
 ------------------------------------------------------------------------
 Criação de --Index
 ------------------------------------------------------------------------
+
+--Qual o departamento com maior número de pessoas? 
 CREATE INDEX idx_employee_dno
 ON Employee (Dno);
 
+--Relação de empregrados por departamento 
 CREATE INDEX idx_deptloc_location
 ON Dept_locations (Dlocation);
 
+--Relação de empregrados por departamento
 CREATE INDEX idx_department_dnumber
 ON Department (Dnumber);
 ----------------------------------------------------------------------
