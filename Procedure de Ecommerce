@@ -206,7 +206,6 @@ insert into seller (SocialName, AbstName, CNPJ, CPF, location, contact) values
                         ('Botique Durgas', null, 2349534058909, 123456783,'Rio de Janeiro', 219567895),
                         ('Kids World', null, 456789123654485, null, 'São Paulo', 1198657484);
                         
-select * from seller;
 -- idPseller, idPproduct, prodQuantity
 insert into productSeller (idPseller, idPproduct, prodQuantity) values
 			    (4,6,80),
